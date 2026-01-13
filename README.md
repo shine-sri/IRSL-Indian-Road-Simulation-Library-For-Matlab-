@@ -5,7 +5,7 @@
 ![Event](https://img.shields.io/badge/Smart%20India%20Hackathon-2025-blue)
 ![Domain](https://img.shields.io/badge/Domain-Autonomous%20Driving%20%7C%20Smart%20Cities-brightgreen)
 
-> [cite_start]**Problem Statement (SIH 2025):** > **25100 — Accelerating High-Fidelity Road Network Modeling for Indian Traffic Simulations** [cite: 1, 2, 3]
+> **Problem Statement (SIH 2025):** > **25100 — Accelerating High-Fidelity Road Network Modeling for Indian Traffic Simulations**
 
 ---
 
@@ -18,7 +18,7 @@ Most existing traffic simulators assume:
 - Predictable, rule-following drivers  
 - Structured and well-maintained road infrastructure  
 
-[cite_start]These assumptions do not hold in real Indian driving environments[cite: 25].
+These assumptions do not hold in real Indian driving environments.
 
 IRSL explicitly violates these assumptions to enable **realistic, stress-inducing traffic simulations** for:
 - ADAS validation  
@@ -29,13 +29,13 @@ IRSL explicitly violates these assumptions to enable **realistic, stress-inducin
 
 ## 📖 Context & Origin
 
-[cite_start]IRSL was originally initiated as a submission for the **Smart India Hackathon (SIH) 2025** by **Team IRSL**[cite: 1, 7, 8].
+IRSL was originally initiated as a submission for the **Smart India Hackathon (SIH) 2025** by **Team IRSL**.
 
 ### Motivation
 
 Current traffic simulators fail to realistically represent:
-- [cite_start]Rash and erratic driving behavior [cite: 25]
-- [cite_start]Temporary barricades and construction zones [cite: 25]
+- Rash and erratic driving behavior  
+- Temporary barricades and construction zones  
 - Informal lane usage  
 - Sudden and unplanned road obstructions  
 
@@ -53,13 +53,13 @@ IRSL is now being actively developed as an **open-source MATLAB research library
 ## 🚀 Project Overview
 
 IRSL integrates directly with:
-- [cite_start]**MATLAB Driving Scenario Designer** [cite: 30]
+- **MATLAB Driving Scenario Designer**
 - **Automated Driving Toolbox**
 
 It acts as a **behavioral and obstacle abstraction layer**, injecting controlled chaos into otherwise idealized simulations.
 
 ### Core Objectives
-- [cite_start]Introduce Indian-road realism into simulations [cite: 28]
+- Introduce Indian-road realism into simulations  
 - Enable repeatable yet configurable scenarios  
 - Support academic research, hackathons, and prototyping  
 
@@ -67,13 +67,13 @@ It acts as a **behavioral and obstacle abstraction layer**, injecting controlled
 
 ## 🧩 Implemented Modules
 
-[cite_start]IRSL follows a modular architecture, where each module encapsulates a specific real-world Indian road phenomenon[cite: 59].
+IRSL follows a modular architecture, where each module encapsulates a specific real-world Indian road phenomenon.
 
 ### 1️⃣ Rash Driving Module — `RashDriving.m`
 Simulates erratic, irrational, and non-rule-based driving behavior.
 
 * **Behavior Modeled:**
-    * [cite_start]Sudden lane deviations [cite: 52]
+    * Sudden lane deviations
     * Non-linear trajectories
     * Variable acceleration and braking
     * Ignoring lane centers and traffic discipline
@@ -92,7 +92,7 @@ Simulates erratic, irrational, and non-rule-based driving behavior.
     * Failure-case generation for autonomous systems
 
 ### 2️⃣ Barricade Module — `Barricade.m`
-[cite_start]Models temporary construction barricades commonly found on Indian roads[cite: 28].
+Models temporary construction barricades commonly found on Indian roads.
 
 * **Behavior Modeled:**
     * Partial lane blockage
@@ -149,7 +149,7 @@ The system prioritizes interpretability, reproducibility, and research transpare
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/your-username/IRSL.git](https://github.com/your-username/IRSL.git)
+    git clone [https://github.com/shine-sri/IRSL.git](https://github.com/shine-sri/IRSL.git)
     ```
 2.  Install the library:
     ```matlab
