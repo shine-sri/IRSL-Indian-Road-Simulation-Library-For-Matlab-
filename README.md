@@ -5,7 +5,8 @@
 ![Event](https://img.shields.io/badge/Smart%20India%20Hackathon-2025-blue)
 ![Domain](https://img.shields.io/badge/Domain-Autonomous%20Driving%20%7C%20Smart%20Cities-brightgreen)
 
-> **Problem Statement (SIH 2025):** > **25100 — Accelerating High-Fidelity Road Network Modeling for Indian Traffic Simulations**
+> **Problem Statement (SIH 2025):**  
+> **25100 — Accelerating High-Fidelity Road Network Modeling for Indian Traffic Simulations**
 
 ---
 
