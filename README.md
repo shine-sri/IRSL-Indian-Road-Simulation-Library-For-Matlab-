@@ -1,0 +1,2 @@
+# IRSL-Indian-Road-Simulation-Library-For-Matlab-
+IRSL addresses the limitations of standard traffic simulators by modeling the chaos of Indian roads. Built using MATLAB and the Automated Driving Toolbox, this library introduces high-fidelity agents for erratic driving, construction barricades, and obstacle avoidance to create stress-tests for autonomous driving algorithms in non-ideal conditions.
