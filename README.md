@@ -43,7 +43,7 @@ As a result, autonomy systems validated on such simulators often fail when deplo
 
 ### Current Status
 
-IRSL is now being actively developed as an **open-source MATLAB research library**, with emphasis on:
+IRSL is now being developed as an ** MATLAB research library**, with emphasis on:
 - Realism  
 - Extensibility  
 - Reproducibility  
